@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+>
+
+<title>QueryNest 👑</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Icons -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+</head>
+
+<body class="theme-purple">
+
+<!-- =========================
+     ANIMATED BACKGROUND
+========================= -->
+
+<div class="animated-bg">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+<!-- Overlay -->
+
+<div class="overlay"></div>
+
+<!-- =========================
+     SIDEBAR
+========================= -->
+
+<div class="sidebar">
+
+    <h2 class="logo">
+        Query<span class="gold">Nest 👑</span>
+    </h2>
+
+    <ul>
+
+        <li class="active">
+            <i class="fa fa-home"></i>
+            Home
+        </li>
+
+        <li>
+            <i class="fa fa-search"></i>
+            Search
+        </li>
+
+        <li>
+            <i class="fa fa-brain"></i>
+            AI Search
+        </li>
+
+        <li>
+            <i class="fa fa-upload"></i>
+            Upload
+        </li>
+
+        <li>
+            <i class="fa fa-file-pdf"></i>
+            PDF Converter
+        </li>
+
+        <li>
+            <i class="fa fa-file-word"></i>
+            DOC Reader
+        </li>
+
+    </ul>
+
+    <!-- Theme Buttons -->
+
+    <div class="theme-buttons">
+
+        <button onclick="changeTheme('theme-purple')">
+            💜 Purple
+        </button>
+
+        <button onclick="changeTheme('theme-blue')">
+            💙 Blue
+        </button>
+
+        <button onclick="changeTheme('theme-green')">
+            💚 Green
+        </button>
+
+        <button onclick="changeTheme('theme-red')">
+            ❤️ Red
+        </button>
+
+    </div>
+
+</div>
+
+<!-- =========================
+     MAIN CONTENT
+========================= -->
+
+<div class="main">
+
+    <!-- Header -->
+
+    <div class="header">
+
+        <h1>
+            Query<span class="gold">Nest 👑</span>
+        </h1>
+
+        <p>
+            Futuristic AI Powered Search Engine
+        </p>
+
+    </div>
+
+    <!-- =========================
+         SEARCH SECTION
+    ========================= -->
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search anything..."
+            onkeyup="getSuggestions()"
+        >
+
+        <button onclick="search()">
+            Search
+        </button>
+
+        <button onclick="voiceSearch()">
+            🎤
+        </button>
+
+    </div>
+
+    <!-- Suggestions -->
+
+    <div id="suggestions"></div>
+
+    <!-- Trending -->
+
+    <div class="trending">
+
+        <span>🔥 AI</span>
+        <span>🌐 Coding</span>
+        <span>📊 Data Science</span>
+        <span>🔐 Security</span>
+
+    </div>
+
+    <!-- =========================
+         FEATURE CARDS
+    ========================= -->
+
+    <div class="cards">
+
+        <!-- Upload -->
+
+        <div class="card glow">
+
+            <h2>📷 Upload Image</h2>
+
+            <input type="file" id="imageInput">
+
+            <button onclick="uploadImage()">
+                Upload
+            </button>
+
+        </div>
+
+        <!-- PDF -->
+
+        <div class="card glow">
+
+            <h2>📄 Convert PDF</h2>
+
+            <input type="file" id="pdfInput">
+
+            <button onclick="convertPdf()">
+                Convert
+            </button>
+
+        </div>
+
+        <!-- DOC -->
+
+        <div class="card glow">
+
+            <h2>📝 Read DOC</h2>
+
+            <input type="file" id="docInput">
+
+            <button onclick="readDoc()">
+                Read
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Search Results -->
+
+    <div id="results"></div>
+
+</div>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
