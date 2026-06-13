@@ -8,6 +8,8 @@ Built using **HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB**, QueryNe
 
 ---
 
+
+
 ## 🚀 Project Highlights
 
 - 🔍 Smart Search System
