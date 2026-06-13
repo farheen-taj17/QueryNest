@@ -210,7 +210,7 @@ Add these sections at the top of your GitHub repository:
 
 💻 Source Code: Available below
 
-📧 Contact: your-email@example.com
+📧 Contact: tajf7337@gmail.com
 Real-Time Notifications
 Deployment with Docker
 
