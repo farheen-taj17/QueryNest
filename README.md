@@ -9,6 +9,8 @@ Built using **HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB**, QueryNe
 ---
 QueryNest screenshorts
 <!-- Uploading "QueryNest.png"... -->
+<img width="1920" height="928" alt="Image" src="https://github.com/user-attachments/assets/1b53493e-7ad4-475c-a171-8be2afeacdc1" />
+
 
 
 
