@@ -7,6 +7,8 @@ QueryNest is a modern full-stack web application that combines intelligent searc
 Built using **HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB**, QueryNest demonstrates practical software engineering skills including frontend development, backend API development, database integration, file handling, responsive design, and modern UI/UX principles.
 
 ---
+QueryNest screenshorts
+<!-- Uploading "QueryNest.png"... -->
 
 
 
