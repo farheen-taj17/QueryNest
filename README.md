@@ -12,6 +12,9 @@ QueryNest screenshorts
 
 <img width="1920" height="928" alt="Image" src="https://github.com/user-attachments/assets/1b53493e-7ad4-475c-a171-8be2afeacdc1" />
 
+<img width="1162" height="562" alt="Image" src="https://github.com/user-attachments/assets/1b02dd8c-c3bc-4264-a678-4e808d4d16c1" />
+
+
 
 
 
